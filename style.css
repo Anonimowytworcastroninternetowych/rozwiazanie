@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+}
+
+* {
+    font-family: Georgia;
+}
+
+header,
+footer {
+    background-color: #325e35;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+}
+
+nav {
+    background-color: #4d7c55;
+    width: 25%;
+    height: 500px;
+    padding-top: 50px;
+}
+
+#panelPrawy {
+    background-color: #f1f1f1;
+    width: 75%;
+    height: 550px;
+    text-align: center;
+    overflow-y: auto;
+}
+
+img {
+    margin: 10px;
+    box-shadow: 15px 15px 10px DimGray;
+}
+
+li {
+    margin: 5px;
+}
+
+li::marker {
+    color: Snow;
+}
+
+table,td, th{
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td, th{
+    padding: 5px;
+}
+tr:first-child{
+    background-color: rgb(70, 177, 70);
+}
+a{
+    color: rgb(70, 177, 70);
+}

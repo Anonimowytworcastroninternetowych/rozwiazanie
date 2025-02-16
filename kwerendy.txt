@@ -1,0 +1,4 @@
+1. SELECT rybak, ryby, wartosc, waga FROM polowy;
+2. SELECT id_zalewu, COUNT(id_polowu) FROM polowy GROUP BY id_zalewu;
+3. SELECT zalewy.nazwa, zalewy.miasto, polowy.ryby FROM zalewy, polowy WHERE zalewy.id_zalewu = polowy.id_polowu AND polowy.data = '2024-02-19';
+4. CREATE TABLE ryby ( id INT PRIMARY KEY AUTO_INCREMENT NOT NULL, nazwa VARCHAR(15), pospolitosc VARCHAR(20), cena_za_kg INT);
