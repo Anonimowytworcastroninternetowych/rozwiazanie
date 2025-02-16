@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Kwiaty</title>
+    <title>Ryby</title>
+    <link rel="icon" type="image/x-icon" href="szczupak.jpg">
     <link rel="stylesheet" href="style.css">
 </head>
 
